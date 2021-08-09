@@ -17,6 +17,8 @@ En [Tutorials Point](https://www.tutorialspoint.com/r/index.htm) y [W3 School](h
 
 Por otro lado, en [DataCamp](https://www.datacamp.com) ofrecen cursos que te llevan de la mano paso a paso a lo largo de distintas áreas de investigación donde se utiliza R para responder diferentes preguntas de investigación.
 
+Una vez instalado R y Rstudio es posible enocntrar una pestaña de Tutorial, en el panel donde está el Enviroment (Ambiente). También se puede acceder instalando el paquete "learnr".
+
 ### Libros
 Es bastente fácil encontrar un libro sobre un tema donde se desarrolle en R. 
 Casi por excelencia, una de las primeras recomendaciones es el libro  [R for Data Science](https://r4ds.had.co.nz) de Hadley Wickham y Garrett Grolemund. Escrito por dos de los más grandes contribuidores de R y RStudio, este libro
