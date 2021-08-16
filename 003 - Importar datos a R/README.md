@@ -18,10 +18,11 @@ Aparte de su fácil acceso, en uno de los panles de esta ventana pondemos encont
 A continuación se presenta el código necesario para importar un archivo en .csv y un .txt separado por tabs. En ambos casos especificamos el tipo de dato (integer) para ambas variables. Esto es un paso que, aunque parece trivial, puede ayudarnos para una siguiente etapa: la manipulación y exploración de datos.
 
 ```
+# .csv
 cars <- read_csv("cars.csv", 
                  col_types = cols(speed = col_integer(),
                                   dist = col_integer()))
-
+# .txt
 cars <- read_delim("cars.txt",
                    delim = "\t", 
                    escape_double = FALSE, 
@@ -34,6 +35,7 @@ cars <- read_delim("cars.txt",
 Dado la popularidad que tiene este programa, Excel se ha convertido en una de las formas predilectas para guardar información. De manera similar, RStudio ofrece una ventana donde podemos customizar la importación de archivos de Excel y obtener el código relacionado con este proceso.
 
 ```
+# .xlsx
 cars <- read_excel("cars.xlsx", 
                    col_types = c("numeric", 
                                  "numeric"))
